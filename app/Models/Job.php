@@ -9,10 +9,17 @@ class Job extends Model
 {
     use HasFactory;
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
     public function tags ()
     {
         return $this->belongsToMany(Tag::class);
     }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
 
     public function user()
     {
