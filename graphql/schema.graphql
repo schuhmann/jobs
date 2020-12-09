@@ -37,6 +37,7 @@ type Job {
     job_title: String!
     job_location: String!
     job_link: String!
+    hightlighted : Boolean!
     company_name: String!
     company_logo: String!
     created_at: DateTime!
