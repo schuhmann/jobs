@@ -1,0 +1,3 @@
+INSERT INTO jobs.tags (id, title, slug, created_at, updated_at) VALUES (3, 'Laravel', 'laravel', '2020-12-09 12:50:26', '2020-12-09 12:52:45');
+INSERT INTO jobs.tags (id, title, slug, created_at, updated_at) VALUES (7, 'Screencast', 'screencast', '2020-12-09 12:50:26', '2020-12-09 12:52:45');
+INSERT INTO jobs.tags (id, title, slug, created_at, updated_at) VALUES (8, 'Livewire', 'livewire', '2020-12-09 12:50:26', '2020-12-09 12:52:45');

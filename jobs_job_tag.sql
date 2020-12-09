@@ -1,0 +1,3 @@
+INSERT INTO jobs.job_tag (id, job_id, tag_id, created_at, updated_at) VALUES (2, 1, 3, '2020-12-09 12:54:45', '2020-12-09 12:54:45');
+INSERT INTO jobs.job_tag (id, job_id, tag_id, created_at, updated_at) VALUES (3, 1, 7, '2020-12-09 12:54:45', '2020-12-09 12:55:58');
+INSERT INTO jobs.job_tag (id, job_id, tag_id, created_at, updated_at) VALUES (6, 8, 8, '2020-12-09 12:54:45', '2020-12-09 12:55:58');

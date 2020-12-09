@@ -1,0 +1,1 @@
+INSERT INTO jobs.users (id, name, email, email_verified_at, password, remember_token, created_at, updated_at) VALUES (5, 'Eberhard Schuhmann', 'schuhmann@hanse-haus.de', '2020-12-09 08:01:44', '$2y$10$gf7u81IdEKInju2KJff1yujHytgKhZODxfYzWk1tJYI3tg.vpU81a', 'B5HKNoR3b1ZUWgZYRjtRw9zmnlE2w4b1V6r4swXVzvJ0uDMCm3UACFxcfBXA', '2020-12-09 08:01:44', '2020-12-09 08:01:44');
