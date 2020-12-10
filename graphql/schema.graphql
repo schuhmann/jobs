@@ -12,9 +12,11 @@ type Query {
     tag(slug: String! @eq): Tag @find
 
     jobs(
-        orderBy: _ @orderBy(columns: ["created_at"])
+        orderBy: _ @orderBy(columns: ["pinned","created_at"])
         hasTags: _ @whereHasConditions(columns: ["slug"])
     ): [Job!]! @all
+
+    me: User @auth
 
 }
 
@@ -30,6 +32,9 @@ type User {
     email: String!
     created_at: DateTime!
     updated_at: DateTime!
+    jobs (
+        orderBy: _ @orderBy(columns: ["created_at"])
+    ): [Job!]! @hasMany
 }
 
 type Job {
@@ -38,6 +43,7 @@ type Job {
     job_location: String!
     job_link: String!
     hightlighted : Boolean!
+    pinned : Boolean!
     company_name: String!
     company_logo: String!
     created_at: DateTime!
